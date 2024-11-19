@@ -1,0 +1,30 @@
+U:\2024 Fall Semester\WORK IN PROGRESS\CraftSystemDew2024Fall\CraftSystemDew2024Fall\obj\Debug\net8.0\CraftSystemDew2024Fall.GeneratedMSBuildEditorConfig.editorconfig
+U:\2024 Fall Semester\WORK IN PROGRESS\CraftSystemDew2024Fall\CraftSystemDew2024Fall\obj\Debug\net8.0\CraftSystemDew2024Fall.AssemblyInfoInputs.cache
+U:\2024 Fall Semester\WORK IN PROGRESS\CraftSystemDew2024Fall\CraftSystemDew2024Fall\obj\Debug\net8.0\CraftSystemDew2024Fall.AssemblyInfo.cs
+U:\2024 Fall Semester\WORK IN PROGRESS\CraftSystemDew2024Fall\CraftSystemDew2024Fall\obj\Debug\net8.0\CraftSystemDew2024Fall.csproj.CoreCompileInputs.cache
+U:\2024 Fall Semester\WORK IN PROGRESS\CraftSystemDew2024Fall\CraftSystemDew2024Fall\obj\Debug\net8.0\CraftSystemDew2024Fall.sourcelink.json
+U:\2024 Fall Semester\WORK IN PROGRESS\CraftSystemDew2024Fall\CraftSystemDew2024Fall\bin\Debug\net8.0\CraftSystemDew2024Fall.exe
+U:\2024 Fall Semester\WORK IN PROGRESS\CraftSystemDew2024Fall\CraftSystemDew2024Fall\bin\Debug\net8.0\CraftSystemDew2024Fall.deps.json
+U:\2024 Fall Semester\WORK IN PROGRESS\CraftSystemDew2024Fall\CraftSystemDew2024Fall\bin\Debug\net8.0\CraftSystemDew2024Fall.runtimeconfig.json
+U:\2024 Fall Semester\WORK IN PROGRESS\CraftSystemDew2024Fall\CraftSystemDew2024Fall\bin\Debug\net8.0\CraftSystemDew2024Fall.dll
+U:\2024 Fall Semester\WORK IN PROGRESS\CraftSystemDew2024Fall\CraftSystemDew2024Fall\bin\Debug\net8.0\CraftSystemDew2024Fall.pdb
+U:\2024 Fall Semester\WORK IN PROGRESS\CraftSystemDew2024Fall\CraftSystemDew2024Fall\obj\Debug\net8.0\CraftSystemDew2024Fall.dll
+U:\2024 Fall Semester\WORK IN PROGRESS\CraftSystemDew2024Fall\CraftSystemDew2024Fall\obj\Debug\net8.0\refint\CraftSystemDew2024Fall.dll
+U:\2024 Fall Semester\WORK IN PROGRESS\CraftSystemDew2024Fall\CraftSystemDew2024Fall\obj\Debug\net8.0\CraftSystemDew2024Fall.pdb
+U:\2024 Fall Semester\WORK IN PROGRESS\CraftSystemDew2024Fall\CraftSystemDew2024Fall\obj\Debug\net8.0\CraftSystemDew2024Fall.genruntimeconfig.cache
+U:\2024 Fall Semester\WORK IN PROGRESS\CraftSystemDew2024Fall\CraftSystemDew2024Fall\obj\Debug\net8.0\ref\CraftSystemDew2024Fall.dll
+U:\2024 Fall Semester\Programming 2\CraftSystemDew2024Fall\CraftSystemDew2024Fall\bin\Debug\net8.0\CraftSystemDew2024Fall.exe
+U:\2024 Fall Semester\Programming 2\CraftSystemDew2024Fall\CraftSystemDew2024Fall\bin\Debug\net8.0\CraftSystemDew2024Fall.deps.json
+U:\2024 Fall Semester\Programming 2\CraftSystemDew2024Fall\CraftSystemDew2024Fall\bin\Debug\net8.0\CraftSystemDew2024Fall.runtimeconfig.json
+U:\2024 Fall Semester\Programming 2\CraftSystemDew2024Fall\CraftSystemDew2024Fall\bin\Debug\net8.0\CraftSystemDew2024Fall.dll
+U:\2024 Fall Semester\Programming 2\CraftSystemDew2024Fall\CraftSystemDew2024Fall\bin\Debug\net8.0\CraftSystemDew2024Fall.pdb
+U:\2024 Fall Semester\Programming 2\CraftSystemDew2024Fall\CraftSystemDew2024Fall\obj\Debug\net8.0\CraftSystemDew2024Fall.GeneratedMSBuildEditorConfig.editorconfig
+U:\2024 Fall Semester\Programming 2\CraftSystemDew2024Fall\CraftSystemDew2024Fall\obj\Debug\net8.0\CraftSystemDew2024Fall.AssemblyInfoInputs.cache
+U:\2024 Fall Semester\Programming 2\CraftSystemDew2024Fall\CraftSystemDew2024Fall\obj\Debug\net8.0\CraftSystemDew2024Fall.AssemblyInfo.cs
+U:\2024 Fall Semester\Programming 2\CraftSystemDew2024Fall\CraftSystemDew2024Fall\obj\Debug\net8.0\CraftSystemDew2024Fall.csproj.CoreCompileInputs.cache
+U:\2024 Fall Semester\Programming 2\CraftSystemDew2024Fall\CraftSystemDew2024Fall\obj\Debug\net8.0\CraftSystemDew2024Fall.sourcelink.json
+U:\2024 Fall Semester\Programming 2\CraftSystemDew2024Fall\CraftSystemDew2024Fall\obj\Debug\net8.0\CraftSystemDew2024Fall.dll
+U:\2024 Fall Semester\Programming 2\CraftSystemDew2024Fall\CraftSystemDew2024Fall\obj\Debug\net8.0\refint\CraftSystemDew2024Fall.dll
+U:\2024 Fall Semester\Programming 2\CraftSystemDew2024Fall\CraftSystemDew2024Fall\obj\Debug\net8.0\CraftSystemDew2024Fall.pdb
+U:\2024 Fall Semester\Programming 2\CraftSystemDew2024Fall\CraftSystemDew2024Fall\obj\Debug\net8.0\CraftSystemDew2024Fall.genruntimeconfig.cache
+U:\2024 Fall Semester\Programming 2\CraftSystemDew2024Fall\CraftSystemDew2024Fall\obj\Debug\net8.0\ref\CraftSystemDew2024Fall.dll
