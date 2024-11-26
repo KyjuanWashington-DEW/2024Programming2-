@@ -15,7 +15,9 @@ namespace DEWsBatsOfBrackenCave
         public int Irritation { get; set; }
         public int Makes { get; set; }
 
-        public Entity(string name, string description, int temp, int population, int irritation, int makes)
+        public string MakesName { get; set; }   
+
+        public Entity(string name, string description, int temp, int population, int irritation, int makes, string makesname )
         {
             Name = name;
             Description = description;
@@ -23,53 +25,54 @@ namespace DEWsBatsOfBrackenCave
             Population = population;
             Irritation = irritation;
             Makes = makes;
+            MakesName = makesname;
         }
     }
 
     public class Producer : Entity
     {
-        public Producer(string name, string description, int temp, int population, int irritation, int makes)
-            : base(name, description, temp, population, irritation, makes)
+        public Producer(string name, string description, int temp, int population, int irritation, int makes, string makesname)
+            : base(name, description, temp, population, irritation, makes, makesname)
         {
         }
     }
 
     public class Consumer : Entity
     {
-        public Consumer(string name, string description, int temp, int population, int irritation, int makes)
-            : base(name, description, temp, population, irritation, makes)
+        public Consumer(string name, string description, int temp, int population, int irritation, int makes, string makesname)
+            : base(name, description, temp, population, irritation, makes,  makesname)
         {
         }
     }
 
     public class Decomposer : Entity
     {
-        public Decomposer(string name, string description, int temp, int population, int irritation, int makes)
-            : base(name, description, temp, population, irritation, makes)
+        public Decomposer(string name, string description, int temp, int population, int irritation, int makes, string makesname)
+            : base(name, description, temp, population, irritation, makes,  makesname)
         {
         }
     }
 
     public class Player : Entity
     {
-        public Player(string name, string description, int temp, int population, int irritation, int makes)
-            : base(name, description, temp, population, irritation, makes)
+        public Player(string name, string description, int temp, int population, int irritation, int makes, string makesname)
+            : base(name, description, temp, population, irritation, makes, makesname)
         {
         }
     }
 
     public class Vendor : Entity
     {
-        public Vendor(string name, string description, int temp, int population, int irritation, int makes)
-            : base(name, description, temp, population, irritation, makes)
+        public Vendor(string name, string description, int temp, int population, int irritation, int makes, string makesname)
+            : base(name, description, temp, population, irritation, makes, makesname)
         {
         }
     }
 
     public class Tourist : Entity
     {
-        public Tourist(string name, string description, int temp, int population, int irritation, int makes)
-            : base(name, description, temp, population, irritation, makes)
+        public Tourist(string name, string description, int temp, int population, int irritation, int makes, string makesname)
+            : base(name, description, temp, population, irritation, makes, makesname)
         {
         }
     }

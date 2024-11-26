@@ -1,0 +1,45 @@
+﻿<Page x:Class="DEWsBatsOfBrackenCave.SetupPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DEWsBatsOfBrackenCave"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+           Title="SetupPage">
+
+    <Grid Background="White">
+        <TextBlock
+            HorizontalAlignment="Center" Margin="0,60,0,0" FontSize="20" Height="129" VerticalAlignment="Top" TextWrapping="Wrap" x:Name="IntroductionText">
+            <Run Text="                    Welcome To The Bracken Bat Cave Simulation"/>
+            <LineBreak/>
+            <Run/>
+            <LineBreak/>
+            <Run Text="Please Input Your Name and Pick a Picture Then Press Enter To Continue"/>
+        </TextBlock>
+        <TextBox
+            x:Name="NameTextBox"
+            HorizontalAlignment="Center"
+            Margin="0,326,0,0"
+            TextWrapping="Wrap"
+            Text="Enter Your Name Here"
+            VerticalAlignment="Top"
+            Width="252"
+            Height="44"
+            Foreground="#FF868686"
+            FontSize="25"
+            GotFocus="NameTextBox_GotFocus"
+            KeyDown="NameTextBox_KeyDown"/>
+        <Button x:Name="OneButton" Content="" HorizontalAlignment="Left" Margin="227,0,0,0" VerticalAlignment="Center" Height="132" Width="143" BorderBrush="#FFA30000" GotFocus="OneButton_GotFocus" Click="OneButton_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/Male.jpg"/>
+            </Button.Background>
+        </Button>
+        <Button x:Name="TwoButton" Content="" HorizontalAlignment="Left" Margin="438,0,0,0" VerticalAlignment="Center" Height="132" Width="143" BorderBrush="#FFA30000" GotFocus="TwoButton_GotFocus" OpacityMask="White" Foreground="White" Opacity="1" Click="TwoButton_Click">
+            <Button.Background>
+                <ImageBrush ImageSource="/Images/Female.jpg"/>
+            </Button.Background>
+        </Button>
+
+    </Grid>
+</Page>

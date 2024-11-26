@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "U:\\2024 Fall Semester\\Programming 2\\DEWsBatsOfBrackenCave\\DEWsBatsOfBrackenCave.csproj",
+      "projectUniqueName": "U:\\2024 Fall Semester\\Programming 2\\DEWsBatsOfBrackenCaveSimulation\\DEWsBatsOfBrackenCave.csproj",
       "projectName": "DEWsBatsOfBrackenCave",
-      "projectPath": "U:\\2024 Fall Semester\\Programming 2\\DEWsBatsOfBrackenCave\\DEWsBatsOfBrackenCave.csproj",
+      "projectPath": "U:\\2024 Fall Semester\\Programming 2\\DEWsBatsOfBrackenCaveSimulation\\DEWsBatsOfBrackenCave.csproj",
       "packagesPath": "C:\\Users\\407226\\.nuget\\packages\\",
-      "outputPath": "U:\\2024 Fall Semester\\Programming 2\\DEWsBatsOfBrackenCave\\obj\\",
+      "outputPath": "U:\\2024 Fall Semester\\Programming 2\\DEWsBatsOfBrackenCaveSimulation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -75,7 +75,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
