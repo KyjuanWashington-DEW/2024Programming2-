@@ -53,14 +53,6 @@ namespace DEWsBatsOfBrackenCave
         }
     }
 
-    public class Player : Entity
-    {
-        public Player(string name, string description, int temp, int population, int irritation, int makes, string makesname)
-            : base(name, description, temp, population, irritation, makes, makesname)
-        {
-        }
-    }
-
     public class Vendor : Entity
     {
         public Vendor(string name, string description, int temp, int population, int irritation, int makes, string makesname)

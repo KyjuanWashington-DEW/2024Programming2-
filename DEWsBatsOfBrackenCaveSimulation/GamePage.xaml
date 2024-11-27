@@ -10,11 +10,7 @@
 
     <Grid>
         <TextBlock x:Name="SkyBlock" HorizontalAlignment="Center" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="314" Width="800" Foreground="#FF00A7FF" Background="DeepSkyBlue"/>
-        <TextBlock x:Name="PlayerPictureBlock" HorizontalAlignment="Left" Margin="635,17,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="86" Width="104">
-            <TextBlock.Background>
-                <ImageBrush ImageSource="/Images/Male.jpg"/>
-            </TextBlock.Background>
-        </TextBlock>
+        <TextBlock x:Name="PlayerPictureBlock" HorizontalAlignment="Left" Margin="635,17,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="86" Width="104" Background="Red"/>
         <TextBlock x:Name="ClockBlock" HorizontalAlignment="Left" Margin="565,33,0,0" TextWrapping="Wrap" Text="12:00" VerticalAlignment="Top" Foreground="Black"/>
         <TextBlock HorizontalAlignment="Center" Margin="0,235,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="215" Width="800" Background="#FF456B21"/>
         <Ellipse x:Name="CaveStone" HorizontalAlignment="Left" Height="114" Margin="127,266,0,0" Stroke="Black" VerticalAlignment="Top" Width="145" Fill="#FFA49898"/>
@@ -24,5 +20,6 @@
             <LineBreak/>
             <Run/>
         </TextBlock>
+        <TextBlock x:Name="HUDBOX" HorizontalAlignment="Left" Margin="434,33,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="112"/>
     </Grid>
 </Page>

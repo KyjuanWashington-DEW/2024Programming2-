@@ -9,16 +9,19 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace DEWsBatsOfBrackenCave;
-
-/// <summary>
-/// Interaction logic for MainWindow.xaml
-/// </summary>
-public partial class MainWindow : Window
+namespace DEWsBatsOfBrackenCave
 {
-    public MainWindow()
+
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
     {
-        InitializeComponent();
-        Main.Content = new SetupPage();
+       public  Player player = new Player();
+        public MainWindow()
+        {
+            InitializeComponent();
+            Main.Content = new SetupPage();
+        }
     }
 }

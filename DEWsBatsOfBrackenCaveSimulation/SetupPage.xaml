@@ -30,16 +30,8 @@
             FontSize="25"
             GotFocus="NameTextBox_GotFocus"
             KeyDown="NameTextBox_KeyDown"/>
-        <Button x:Name="OneButton" Content="" HorizontalAlignment="Left" Margin="227,0,0,0" VerticalAlignment="Center" Height="132" Width="143" BorderBrush="#FFA30000" GotFocus="OneButton_GotFocus" Click="OneButton_Click">
-            <Button.Background>
-                <ImageBrush ImageSource="/Images/Male.jpg"/>
-            </Button.Background>
-        </Button>
-        <Button x:Name="TwoButton" Content="" HorizontalAlignment="Left" Margin="438,0,0,0" VerticalAlignment="Center" Height="132" Width="143" BorderBrush="#FFA30000" GotFocus="TwoButton_GotFocus" OpacityMask="White" Foreground="White" Opacity="1" Click="TwoButton_Click">
-            <Button.Background>
-                <ImageBrush ImageSource="/Images/Female.jpg"/>
-            </Button.Background>
-        </Button>
+        <Button x:Name="OneButton" Content="" HorizontalAlignment="Left" Margin="227,0,0,0" VerticalAlignment="Center" Height="132" Width="143" BorderBrush="#FFA30000" GotFocus="OneButton_GotFocus" Click="OneButton_Click" Background="Red"/>
+        <Button x:Name="TwoButton" Content="" HorizontalAlignment="Left" Margin="438,0,0,0" VerticalAlignment="Center" Height="132" Width="143" BorderBrush="#FFA30000" GotFocus="TwoButton_GotFocus" OpacityMask="White" Foreground="White" Opacity="1" Click="TwoButton_Click" Background="#FF0061FF"/>
 
     </Grid>
 </Page>

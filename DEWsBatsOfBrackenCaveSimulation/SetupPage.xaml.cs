@@ -20,6 +20,7 @@ namespace DEWsBatsOfBrackenCave
     /// </summary>
     public partial class SetupPage : Page
     {
+        MainWindow win = (MainWindow)Application.Current.MainWindow;
         public SetupPage()
         {
             InitializeComponent();
@@ -41,16 +42,12 @@ namespace DEWsBatsOfBrackenCave
         {
             if (e.Key == Key.Return)
             {
-                string name = NameTextBox.Text;
-                string description = "";
-                int temp = 0;
-                int population = 0;
-                int irritation = 0;
-                int makes = 0;
-                string makesname = "";
+              
+               
+                win.player.PlayerName = NameTextBox.Text;
 
-                Player player = new Player(name, description, temp, population, irritation, makes, makesname);
-                NavigationService.Navigate(new GamePage(player));
+
+                NavigationService.Navigate(new GamePage());
             }
         }
 

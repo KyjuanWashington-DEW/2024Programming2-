@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlTypes;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -17,12 +18,21 @@ namespace DEWsBatsOfBrackenCave
 {
     public partial class GamePage : Page
     {
-        private Player player;
+        MainWindow win = (MainWindow)Application.Current.MainWindow;
 
-        public GamePage(Player player)
+        public GamePage()
         {
-            this.player = player;
             InitializeComponent();
+
+            UIUpdate();
+
+
+
         }
+        private void UIUpdate()
+        {
+            HUDBOX.Text = $"{win.player.PlayerName} {win.player.Money.ToString("C")}";
+        }
+        
     }
 }
