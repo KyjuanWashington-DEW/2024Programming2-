@@ -20,6 +20,8 @@ namespace DEWsBatsOfBrackenCave
     /// </summary>
     public partial class SetupPage : Page
     {
+        public bool twoButton = false;
+            public bool oneButton = false;
         MainWindow win = (MainWindow)Application.Current.MainWindow;
         public SetupPage()
         {
@@ -57,6 +59,7 @@ namespace DEWsBatsOfBrackenCave
         private void OneButton_GotFocus(object sender, RoutedEventArgs e)
         {
             OneButton.BorderBrush = new SolidColorBrush(Color.FromArgb(255, 255, 251, 0));
+           
         }
 
         private void TwoButton_GotFocus(object sender, RoutedEventArgs e)
@@ -67,16 +70,21 @@ namespace DEWsBatsOfBrackenCave
 
         private void TwoButton_Click(object sender, RoutedEventArgs e)
         {
+            twoButton = true;
             OneButton.Opacity = 0.5;
             TwoButton.Opacity = 1.0;
             OneButton.BorderBrush = new SolidColorBrush(Color.FromArgb(255, 162, 0, 0));
+            oneButton = false;
         }
 
         private void OneButton_Click(object sender, RoutedEventArgs e)
         {
+
+            oneButton = true;
             TwoButton.Opacity = 0.5;
             OneButton.Opacity = 1.0;
             TwoButton.BorderBrush = new SolidColorBrush(Color.FromArgb(255, 162, 0, 0));
+            twoButton = false;
         }
     }
 }

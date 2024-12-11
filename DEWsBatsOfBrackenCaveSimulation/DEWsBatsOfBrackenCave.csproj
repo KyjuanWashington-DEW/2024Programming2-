@@ -9,13 +9,24 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Images\Female.jpg" />
-    <None Remove="Images\Male.jpg" />
+    <None Remove="Images\fox.png" />
+    <None Remove="Images\owl.png" />
+    <None Remove="Images\Snake.png" />
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="Images\Female.jpg" />
-    <Resource Include="Images\Male.jpg" />
+    <Content Include="Images\fox.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\owl.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Snake.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>

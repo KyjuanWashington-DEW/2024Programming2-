@@ -3,6 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Windows;
+
 
  
 
@@ -11,9 +13,9 @@ using System.Threading.Tasks;
         public class Item
         {
             public string Name { get; set; }  
-            public int Value { get; set; }   
+            public int Value { get; set; }
 
-            
+        public int Amount = 0;
             public static List<Item> Items = new List<Item>();
 
             
@@ -24,11 +26,21 @@ using System.Threading.Tasks;
                 
                 Items.Add(this);
             }
+      
 
-            public void ShowItem()
+    
+
+      
+
+    public void ShowItem()
             {
-                //$"Item: {Name}, Value: {Value}";
+  
+            foreach (var item in Item.Items)
+            {
+                MessageBox.Show($"\n{item.Name}, Value: {item.Value}");
             }
+
+        }
 
          
         }
